@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultCLI.build/master.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/Sources/XcresultCLI/OutputFormatter.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultCLI.build/OutputFormatter.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultCLI.build/OutputFormatter.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultCLI.build/OutputFormatter~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultCLI.build/OutputFormatter.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/Sources/XcresultCLI/main.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultCLI.build/main.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultCLI.build/main.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultCLI.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultCLI.build/main.swiftdeps"
+  }
+}

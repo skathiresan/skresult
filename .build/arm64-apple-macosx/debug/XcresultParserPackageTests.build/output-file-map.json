@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParserPackageTests.build/master.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParserPackageTests.derived/runner.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParserPackageTests.build/runner.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParserPackageTests.build/runner.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParserPackageTests.build/runner~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParserPackageTests.build/runner.swiftdeps"
+  }
+}

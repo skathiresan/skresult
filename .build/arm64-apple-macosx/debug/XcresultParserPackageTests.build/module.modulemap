@@ -1,0 +1,4 @@
+module XcresultParserPackageTests {
+    header "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParserPackageTests.build/XcresultParserPackageTests-Swift.h"
+    requires objc
+}

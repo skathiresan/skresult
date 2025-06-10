@@ -1,0 +1,4 @@
+module XCResultKit {
+    header "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/XCResultKit-Swift.h"
+    requires objc
+}

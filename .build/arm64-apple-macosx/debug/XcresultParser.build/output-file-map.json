@@ -1,0 +1,77 @@
+{
+  "": {
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParser.build/master.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/Sources/XcresultParser/AttachmentExtractor.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParser.build/AttachmentExtractor.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParser.build/AttachmentExtractor.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParser.build/AttachmentExtractor~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParser.build/AttachmentExtractor.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/Sources/XcresultParser/AttachmentExtractor_Simple.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParser.build/AttachmentExtractor_Simple.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParser.build/AttachmentExtractor_Simple.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParser.build/AttachmentExtractor_Simple~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParser.build/AttachmentExtractor_Simple.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/Sources/XcresultParser/CoverageExtractor.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParser.build/CoverageExtractor.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParser.build/CoverageExtractor.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParser.build/CoverageExtractor~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParser.build/CoverageExtractor.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/Sources/XcresultParser/CoverageExtractor_Simple.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParser.build/CoverageExtractor_Simple.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParser.build/CoverageExtractor_Simple.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParser.build/CoverageExtractor_Simple~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParser.build/CoverageExtractor_Simple.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/Sources/XcresultParser/Examples.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParser.build/Examples.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParser.build/Examples.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParser.build/Examples~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParser.build/Examples.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/Sources/XcresultParser/Extensions.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParser.build/Extensions.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParser.build/Extensions.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParser.build/Extensions~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParser.build/Extensions.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/Sources/XcresultParser/Models.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParser.build/Models.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParser.build/Models.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParser.build/Models~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParser.build/Models.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/Sources/XcresultParser/TestDataExtractor.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParser.build/TestDataExtractor.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParser.build/TestDataExtractor.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParser.build/TestDataExtractor~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParser.build/TestDataExtractor.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/Sources/XcresultParser/TestDataExtractor_Simple.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParser.build/TestDataExtractor_Simple.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParser.build/TestDataExtractor_Simple.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParser.build/TestDataExtractor_Simple~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParser.build/TestDataExtractor_Simple.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/Sources/XcresultParser/XCResultExporter.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParser.build/XCResultExporter.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParser.build/XCResultExporter.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParser.build/XCResultExporter~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParser.build/XCResultExporter.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/Sources/XcresultParser/XCResultKit+Extensions.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParser.build/XCResultKit+Extensions.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParser.build/XCResultKit+Extensions.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParser.build/XCResultKit+Extensions~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParser.build/XCResultKit+Extensions.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/Sources/XcresultParser/XcresultParser.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParser.build/XcresultParser.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParser.build/XcresultParser.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParser.build/XcresultParser~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParser.build/XcresultParser.swiftdeps"
+  }
+}

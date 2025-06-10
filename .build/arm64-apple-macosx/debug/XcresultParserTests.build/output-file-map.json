@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParserTests.build/master.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/Tests/XcresultParserTests/ExtensionsTests.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParserTests.build/ExtensionsTests.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParserTests.build/ExtensionsTests.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParserTests.build/ExtensionsTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParserTests.build/ExtensionsTests.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/Tests/XcresultParserTests/IntegrationTests.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParserTests.build/IntegrationTests.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParserTests.build/IntegrationTests.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParserTests.build/IntegrationTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParserTests.build/IntegrationTests.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/Tests/XcresultParserTests/XcresultParserTests.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParserTests.build/XcresultParserTests.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParserTests.build/XcresultParserTests.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParserTests.build/XcresultParserTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParserTests.build/XcresultParserTests.swiftdeps"
+  }
+}

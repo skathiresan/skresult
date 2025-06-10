@@ -1,0 +1,4 @@
+module XcresultParser {
+    header "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XcresultParser.build/XcresultParser-Swift.h"
+    requires objc
+}

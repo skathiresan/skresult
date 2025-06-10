@@ -1,0 +1,473 @@
+{
+  "": {
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/master.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/CodeCoverage.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/CodeCoverage.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/CodeCoverage.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/CodeCoverage~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/CodeCoverage.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/LogStoreExecution.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/LogStoreExecution.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/LogStoreExecution.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/LogStoreExecution~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/LogStoreExecution.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/LogStoreManifest.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/LogStoreManifest.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/LogStoreManifest.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/LogStoreManifest~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/LogStoreManifest.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Logger.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/Logger.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/Logger.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/Logger~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/Logger.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/ActionAbstractTestSummary.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionAbstractTestSummary.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionAbstractTestSummary.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionAbstractTestSummary~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionAbstractTestSummary.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/ActionDeviceRecord.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionDeviceRecord.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionDeviceRecord.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionDeviceRecord~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionDeviceRecord.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/ActionPlatformRecord.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionPlatformRecord.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionPlatformRecord.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionPlatformRecord~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionPlatformRecord.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/ActionRecord.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionRecord.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionRecord.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionRecord~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionRecord.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/ActionResult.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionResult.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionResult.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionResult~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionResult.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/ActionRunDestinationRecord.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionRunDestinationRecord.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionRunDestinationRecord.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionRunDestinationRecord~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionRunDestinationRecord.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/ActionSDKRecord.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionSDKRecord.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionSDKRecord.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionSDKRecord~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionSDKRecord.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/ActionTestActivitySummary.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestActivitySummary.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestActivitySummary.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestActivitySummary~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestActivitySummary.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/ActionTestAttachment.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestAttachment.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestAttachment.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestAttachment~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestAttachment.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/ActionTestConfiguration.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestConfiguration.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestConfiguration.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestConfiguration~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestConfiguration.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/ActionTestExpectedFailure.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestExpectedFailure.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestExpectedFailure.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestExpectedFailure~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestExpectedFailure.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/ActionTestFailureSummary.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestFailureSummary.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestFailureSummary.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestFailureSummary~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestFailureSummary.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/ActionTestIssueSummary.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestIssueSummary.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestIssueSummary.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestIssueSummary~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestIssueSummary.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/ActionTestMetadata.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestMetadata.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestMetadata.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestMetadata~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestMetadata.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/ActionTestNoticeSummary.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestNoticeSummary.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestNoticeSummary.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestNoticeSummary~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestNoticeSummary.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/ActionTestPerformanceMetricSummary.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestPerformanceMetricSummary.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestPerformanceMetricSummary.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestPerformanceMetricSummary~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestPerformanceMetricSummary.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/ActionTestPlanRunSummaries.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestPlanRunSummaries.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestPlanRunSummaries.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestPlanRunSummaries~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestPlanRunSummaries.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/ActionTestPlanRunSummary.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestPlanRunSummary.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestPlanRunSummary.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestPlanRunSummary~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestPlanRunSummary.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/ActionTestRepetitionPolicySummary.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestRepetitionPolicySummary.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestRepetitionPolicySummary.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestRepetitionPolicySummary~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestRepetitionPolicySummary.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/ActionTestSummary.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestSummary.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestSummary.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestSummary~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestSummary.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/ActionTestSummaryGroup.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestSummaryGroup.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestSummaryGroup.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestSummaryGroup~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestSummaryGroup.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/ActionTestSummaryIdentifiableObject.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestSummaryIdentifiableObject.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestSummaryIdentifiableObject.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestSummaryIdentifiableObject~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestSummaryIdentifiableObject.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/ActionTestableSummary.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestableSummary.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestableSummary.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestableSummary~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionTestableSummary.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/ActionsInvocationMetadata.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionsInvocationMetadata.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionsInvocationMetadata.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionsInvocationMetadata~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionsInvocationMetadata.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/ActionsInvocationRecord.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionsInvocationRecord.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionsInvocationRecord.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionsInvocationRecord~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActionsInvocationRecord.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/ActivityLogAnalyzerControlFlowStep.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActivityLogAnalyzerControlFlowStep.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActivityLogAnalyzerControlFlowStep.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActivityLogAnalyzerControlFlowStep~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActivityLogAnalyzerControlFlowStep.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/ActivityLogAnalyzerControlFlowStepEdge.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActivityLogAnalyzerControlFlowStepEdge.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActivityLogAnalyzerControlFlowStepEdge.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActivityLogAnalyzerControlFlowStepEdge~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActivityLogAnalyzerControlFlowStepEdge.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/ActivityLogAnalyzerEventStep.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActivityLogAnalyzerEventStep.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActivityLogAnalyzerEventStep.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActivityLogAnalyzerEventStep~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActivityLogAnalyzerEventStep.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/ActivityLogAnalyzerResultMessage.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActivityLogAnalyzerResultMessage.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActivityLogAnalyzerResultMessage.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActivityLogAnalyzerResultMessage~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActivityLogAnalyzerResultMessage.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/ActivityLogAnalyzerStep.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActivityLogAnalyzerStep.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActivityLogAnalyzerStep.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActivityLogAnalyzerStep~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActivityLogAnalyzerStep.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/ActivityLogAnalyzerWarningMessage.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActivityLogAnalyzerWarningMessage.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActivityLogAnalyzerWarningMessage.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActivityLogAnalyzerWarningMessage~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActivityLogAnalyzerWarningMessage.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/ActivityLogCommandInvocationSection.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActivityLogCommandInvocationSection.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActivityLogCommandInvocationSection.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActivityLogCommandInvocationSection~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActivityLogCommandInvocationSection.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/ActivityLogMajorSection.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActivityLogMajorSection.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActivityLogMajorSection.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActivityLogMajorSection~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActivityLogMajorSection.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/ActivityLogMessage.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActivityLogMessage.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActivityLogMessage.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActivityLogMessage~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActivityLogMessage.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/ActivityLogMessageAnnotation.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActivityLogMessageAnnotation.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActivityLogMessageAnnotation.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActivityLogMessageAnnotation~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActivityLogMessageAnnotation.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/ActivityLogSection.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActivityLogSection.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActivityLogSection.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActivityLogSection~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActivityLogSection.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/ActivityLogTargetBuildSection.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActivityLogTargetBuildSection.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActivityLogTargetBuildSection.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActivityLogTargetBuildSection~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActivityLogTargetBuildSection.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/ActivityLogUnitTestSection.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActivityLogUnitTestSection.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActivityLogUnitTestSection.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActivityLogUnitTestSection~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ActivityLogUnitTestSection.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/ArchiveInfo.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ArchiveInfo.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ArchiveInfo.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ArchiveInfo~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ArchiveInfo.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/CodeCoverageInfo.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/CodeCoverageInfo.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/CodeCoverageInfo.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/CodeCoverageInfo~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/CodeCoverageInfo.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/ConsoleLogItem.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ConsoleLogItem.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ConsoleLogItem.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ConsoleLogItem~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ConsoleLogItem.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/ConsoleLogItemLogData.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ConsoleLogItemLogData.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ConsoleLogItemLogData.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ConsoleLogItemLogData~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ConsoleLogItemLogData.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/ConsoleLogSection.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ConsoleLogSection.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ConsoleLogSection.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ConsoleLogSection~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ConsoleLogSection.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/DocumentLocation.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/DocumentLocation.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/DocumentLocation.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/DocumentLocation~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/DocumentLocation.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/EntityIdentifier.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/EntityIdentifier.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/EntityIdentifier.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/EntityIdentifier~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/EntityIdentifier.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/IssueSummary.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/IssueSummary.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/IssueSummary.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/IssueSummary~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/IssueSummary.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/IssueTrackingMetadata.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/IssueTrackingMetadata.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/IssueTrackingMetadata.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/IssueTrackingMetadata~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/IssueTrackingMetadata.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/Reference.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/Reference.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/Reference.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/Reference~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/Reference.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/ResultIssueSummaries.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ResultIssueSummaries.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ResultIssueSummaries.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ResultIssueSummaries~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ResultIssueSummaries.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/ResultMetrics.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ResultMetrics.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ResultMetrics.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ResultMetrics~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/ResultMetrics.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/SortedKeyValueArray.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/SortedKeyValueArray.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/SortedKeyValueArray.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/SortedKeyValueArray~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/SortedKeyValueArray.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/SortedKeyValueArrayPair.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/SortedKeyValueArrayPair.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/SortedKeyValueArrayPair.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/SortedKeyValueArrayPair~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/SortedKeyValueArrayPair.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/SourceCodeContext.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/SourceCodeContext.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/SourceCodeContext.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/SourceCodeContext~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/SourceCodeContext.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/SourceCodeFrame.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/SourceCodeFrame.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/SourceCodeFrame.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/SourceCodeFrame~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/SourceCodeFrame.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/SourceCodeLocation.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/SourceCodeLocation.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/SourceCodeLocation.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/SourceCodeLocation~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/SourceCodeLocation.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/SourceCodeSymbolInfo.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/SourceCodeSymbolInfo.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/SourceCodeSymbolInfo.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/SourceCodeSymbolInfo~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/SourceCodeSymbolInfo.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/TestArgument.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/TestArgument.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/TestArgument.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/TestArgument~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/TestArgument.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/TestAssociatedError.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/TestAssociatedError.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/TestAssociatedError.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/TestAssociatedError~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/TestAssociatedError.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/TestDocumentation.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/TestDocumentation.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/TestDocumentation.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/TestDocumentation~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/TestDocumentation.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/TestExpression.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/TestExpression.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/TestExpression.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/TestExpression~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/TestExpression.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/TestFailureIssueSummary.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/TestFailureIssueSummary.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/TestFailureIssueSummary.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/TestFailureIssueSummary~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/TestFailureIssueSummary.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/TestIssueSummary.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/TestIssueSummary.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/TestIssueSummary.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/TestIssueSummary~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/TestIssueSummary.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/TestParameter.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/TestParameter.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/TestParameter.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/TestParameter~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/TestParameter.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/TestTag.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/TestTag.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/TestTag.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/TestTag~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/TestTag.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/TestValue.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/TestValue.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/TestValue.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/TestValue~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/TestValue.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/Schema/TypeDefinition.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/TypeDefinition.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/TypeDefinition.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/TypeDefinition~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/TypeDefinition.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/XCResultBool.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/XCResultBool.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/XCResultBool.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/XCResultBool~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/XCResultBool.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/XCResultDate.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/XCResultDate.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/XCResultDate.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/XCResultDate~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/XCResultDate.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/XCResultDouble.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/XCResultDouble.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/XCResultDouble.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/XCResultDouble~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/XCResultDouble.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/XCResultFile.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/XCResultFile.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/XCResultFile.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/XCResultFile~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/XCResultFile.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/XCResultInt.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/XCResultInt.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/XCResultInt.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/XCResultInt~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/XCResultInt.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/XCResultObject.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/XCResultObject.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/XCResultObject.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/XCResultObject~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/XCResultObject.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/XCResultString.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/XCResultString.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/XCResultString.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/XCResultString~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/XCResultString.swiftdeps"
+  },
+  "/Users/subbuk/Developer/Xcresultstool/.build/checkouts/XCResultKit/Sources/XCResultKit/XCResultUInt.swift": {
+    "dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/XCResultUInt.d",
+    "object": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/XCResultUInt.swift.o",
+    "swiftmodule": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/XCResultUInt~partial.swiftmodule",
+    "swift-dependencies": "/Users/subbuk/Developer/Xcresultstool/.build/arm64-apple-macosx/debug/XCResultKit.build/XCResultUInt.swiftdeps"
+  }
+}
