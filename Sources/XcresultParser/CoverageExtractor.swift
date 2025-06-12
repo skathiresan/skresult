@@ -29,20 +29,8 @@ class CoverageExtractor {
                 unitTestCoverage = coverage
                 uiTestCoverage = coverage
             }
-        } else {
-            // Fallback: check if any actions have coverage info, even if we can't extract it
-            let hasCoverageActions = invocationRecord.actions.contains { action in
-                return action.actionResult.coverage != nil
-            }
-            
-            if hasCoverageActions {
-                // Create placeholder coverage to indicate that coverage data exists but couldn't be extracted
-                let coverage = createPlaceholderCoverage()
-                overallCoverage = coverage
-                unitTestCoverage = coverage
-                uiTestCoverage = coverage
-            }
         }
+        // If no coverage data is available, return nil values (no mock data)
         
         return (overallCoverage, unitTestCoverage, uiTestCoverage)
     }
@@ -80,18 +68,6 @@ class CoverageExtractor {
         )
     }
     
-    private func createPlaceholderCoverage() -> OverallCoverage {
-        // Create sample coverage data for demonstration
-        return OverallCoverage(
-            lineCoverage: 0.8,
-            functionCoverage: 0.85,
-            branchCoverage: 0.75,
-            executableLines: 100,
-            coveredLines: 80,
-            executableFunctions: 20,
-            coveredFunctions: 17
-        )
-    }
     
     private func determineTestType(from action: ActionRecord, resultFile: XCResultFile) -> TestType {
         // Try to determine test type by analyzing test summaries

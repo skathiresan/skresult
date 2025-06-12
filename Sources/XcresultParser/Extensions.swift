@@ -75,25 +75,25 @@ public extension ParsedXCResult {
         )
     }
     
-    /// Get files with low coverage (mock implementation)
+    /// Get files with low coverage
     func filesWithLowCoverage(threshold: Double) -> [String] {
-        // Mock implementation since we don't have file-level coverage in our simplified model
-        if let overall = overallCoverage, overall.lineCoverage < threshold {
-            return ["MockFile1.swift", "MockFile2.swift"]
-        }
+        // Return empty array since file-level coverage parsing is not implemented yet
+        // In a future implementation, this would parse file-level coverage from the xcresult
         return []
     }
     
-    /// Get top covered files (mock implementation)
+    /// Get top covered files
     func topCoveredFiles(count: Int) -> [String] {
-        // Mock implementation since we don't have file-level coverage in our simplified model
-        return Array(["HighCoverage1.swift", "HighCoverage2.swift", "HighCoverage3.swift"].prefix(count))
+        // Return empty array since file-level coverage parsing is not implemented yet
+        // In a future implementation, this would return actual file names sorted by coverage
+        return []
     }
     
-    /// Get coverage for a specific target (mock implementation)
+    /// Get coverage for a specific target
     func coverage(forTarget targetName: String) -> OverallCoverage? {
-        // Mock implementation - return overall coverage as placeholder
-        return overallCoverage
+        // Return nil since target-specific coverage parsing is not implemented yet
+        // In a future implementation, this would parse target-specific coverage data
+        return nil
     }
     
     /// Get total test duration

@@ -44,21 +44,15 @@ public struct ParsedXCResult: Codable {
     public var coverage: ParsedXCResult { return self }
     public var testData: ParsedXCResult { return self }
     
-    // Mock properties for file-level and target-level coverage
+    // Properties for file-level and target-level coverage (empty by default since we don't parse file-level coverage yet)
     public var overall: OverallCoverage? { return overallCoverage }
-    public var files: [MockFileCoverage] { 
-        // Mock file coverage data
-        return [
-            MockFileCoverage(name: "MockFile1.swift", lineCoverage: 0.8, functionCoverage: 0.85, executableLines: 50, coveredLines: 40),
-            MockFileCoverage(name: "MockFile2.swift", lineCoverage: 0.9, functionCoverage: 0.95, executableLines: 30, coveredLines: 27)
-        ]
+    public var files: [FileCoverage] { 
+        // Return empty array since file-level coverage parsing is not implemented yet
+        return []
     }
-    public var targets: [MockTargetCoverage] {
-        // Mock target coverage data
-        return [
-            MockTargetCoverage(name: "MainTarget", lineCoverage: 0.85),
-            MockTargetCoverage(name: "TestTarget", lineCoverage: 0.92)
-        ]
+    public var targets: [TargetCoverage] {
+        // Return empty array since target-level coverage parsing is not implemented yet
+        return []
     }
 }
 
@@ -298,18 +292,4 @@ public enum TestStatus: Codable {
     case failed
     case skipped
     case unknown
-}
-
-/// Mock structures for compatibility
-public struct MockFileCoverage: Codable {
-    public let name: String
-    public let lineCoverage: Double
-    public let functionCoverage: Double
-    public let executableLines: Int
-    public let coveredLines: Int
-}
-
-public struct MockTargetCoverage: Codable {
-    public let name: String
-    public let lineCoverage: Double
 }
