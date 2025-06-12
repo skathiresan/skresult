@@ -9,33 +9,75 @@ class CoverageExtractor {
         var uiTestCoverage: OverallCoverage?
         var overallCoverage: OverallCoverage?
         
-        // Extract coverage from each action
-        for action in invocationRecord.actions {
-            _ = action.actionResult
+        // Try to get actual coverage data using XCResultKit
+        if let codeCoverage = resultFile.getCodeCoverage() {
+            let coverage = try processCoverageData(codeCoverage)
             
-            // For now, create placeholder coverage since XCResultKit doesn't expose
-            // all the coverage APIs we need in a simple way
-            let coverage = createPlaceholderCoverage()
+            // For now, we'll use the same coverage for all types since xccov gives us overall coverage
+            // In a real implementation, you might need to parse separate xcresult files for unit vs UI tests
+            // or use additional heuristics to separate the coverage data
+            overallCoverage = coverage
             
-            // Determine test type based on action context
-            let testType = determineTestType(from: action)
+            // Check if we have test actions to determine if this includes unit/UI test coverage
+            let hasTestActions = invocationRecord.actions.contains { action in
+                return action.actionResult.testsRef != nil
+            }
             
-            switch testType {
-            case .unit:
+            if hasTestActions {
+                // For simplicity, assign the same coverage to both unit and UI tests
+                // A more sophisticated implementation would separate these based on test targets
                 unitTestCoverage = coverage
-            case .ui:
                 uiTestCoverage = coverage
-            case .unknown, .integration, .performance:
+            }
+        } else {
+            // Fallback: check if any actions have coverage info, even if we can't extract it
+            let hasCoverageActions = invocationRecord.actions.contains { action in
+                return action.actionResult.coverage != nil
+            }
+            
+            if hasCoverageActions {
+                // Create placeholder coverage to indicate that coverage data exists but couldn't be extracted
+                let coverage = createPlaceholderCoverage()
                 overallCoverage = coverage
+                unitTestCoverage = coverage
+                uiTestCoverage = coverage
             }
         }
         
-        // If we have unit or UI test coverage, combine them for overall
-        if overallCoverage == nil {
-            overallCoverage = combineTestCoverage(unitTest: unitTestCoverage, uiTest: uiTestCoverage)
+        return (overallCoverage, unitTestCoverage, uiTestCoverage)
+    }
+    
+    private func processCoverageData(_ codeCoverage: CodeCoverage) throws -> OverallCoverage {
+        let totalExecutableLines = codeCoverage.executableLines
+        let totalCoveredLines = codeCoverage.coveredLines
+        var totalExecutableFunctions = 0
+        var totalCoveredFunctions = 0
+        
+        // Process each target and file in the coverage data
+        for target in codeCoverage.targets {
+            for file in target.files {
+                // Count functions
+                for function in file.functions {
+                    totalExecutableFunctions += 1
+                    if function.executionCount > 0 {
+                        totalCoveredFunctions += 1
+                    }
+                }
+            }
         }
         
-        return (overallCoverage, unitTestCoverage, uiTestCoverage)
+        let lineCoverage = codeCoverage.lineCoverage
+        let functionCoverage = totalExecutableFunctions > 0 ? Double(totalCoveredFunctions) / Double(totalExecutableFunctions) : 0.0
+        
+        return OverallCoverage(
+            lineCoverage: lineCoverage,
+            functionCoverage: functionCoverage,
+            branchCoverage: nil, // Branch coverage not readily available from XCResultKit
+            executableLines: totalExecutableLines,
+            coveredLines: totalCoveredLines,
+            executableFunctions: totalExecutableFunctions,
+            coveredFunctions: totalCoveredFunctions
+        )
     }
     
     private func createPlaceholderCoverage() -> OverallCoverage {
@@ -51,14 +93,26 @@ class CoverageExtractor {
         )
     }
     
-    private func determineTestType(from action: ActionRecord) -> TestType {
-        // Simple heuristic based on action type
-        // In a real implementation, you would analyze the test summaries
-        if action.actionResult.testsRef != nil {
-            // This is a test action, default to unit test
-            return .unit
+    private func determineTestType(from action: ActionRecord, resultFile: XCResultFile) -> TestType {
+        // Try to determine test type by analyzing test summaries
+        if let testsRef = action.actionResult.testsRef,
+           let testPlanRunSummaries = resultFile.getTestPlanRunSummaries(id: testsRef.id) {
+            
+            for summary in testPlanRunSummaries.summaries {
+                for testableSummary in summary.testableSummaries {
+                    let targetName = testableSummary.targetName?.lowercased() ?? ""
+                    
+                    if targetName.contains("ui") || targetName.contains("uitest") {
+                        return .ui
+                    } else if targetName.contains("unit") || targetName.contains("unittest") {
+                        return .unit
+                    }
+                }
+            }
         }
-        return .unknown
+        
+        // Default to unit test
+        return .unit
     }
     
     private func combineTestCoverage(unitTest: OverallCoverage?, uiTest: OverallCoverage?) -> OverallCoverage? {

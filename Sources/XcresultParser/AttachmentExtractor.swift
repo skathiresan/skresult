@@ -56,7 +56,17 @@ class AttachmentExtractor {
         var attachments: [TestAttachment] = []
         
         for test in testGroup.subtests {
+            // Handle both ActionTestSummary and ActionTestSummaryGroup
             if let testSummary = test as? ActionTestSummary {
+                let testAttachments = try extractAttachmentsFromTest(testSummary, resultFile: resultFile)
+                attachments.append(contentsOf: testAttachments)
+            } else if let nestedGroup = test as? ActionTestSummaryGroup {
+                // Recursively process nested test groups
+                let nestedAttachments = try extractAttachmentsFromTestGroup(nestedGroup, resultFile: resultFile)
+                attachments.append(contentsOf: nestedAttachments)
+            } else if let testMetadata = test as? ActionTestMetadata,
+                      let summariesRef = testMetadata.summaryRef,
+                      let testSummary = resultFile.getActionTestSummary(id: summariesRef.id) {
                 let testAttachments = try extractAttachmentsFromTest(testSummary, resultFile: resultFile)
                 attachments.append(contentsOf: testAttachments)
             }

@@ -69,21 +69,43 @@ class TestDataExtractor {
         
         // Process individual tests in the group
         for test in testGroup.subtests {
+            // Handle both ActionTestSummary and ActionTestSummaryGroup
             if let testSummary = test as? ActionTestSummary {
                 let (testCase, tags) = try processTestCase(testSummary, resultFile: resultFile)
                 if let testCase = testCase {
                     testCases.append(testCase)
                 }
                 allTags.append(contentsOf: tags)
+            } else if let nestedGroup = test as? ActionTestSummaryGroup {
+                // Recursively process nested test groups
+                let (nestedSuite, tags) = try processTestGroup(nestedGroup, resultFile: resultFile, targetName: targetName)
+                if let nestedSuite = nestedSuite {
+                    testCases.append(contentsOf: nestedSuite.tests)
+                }
+                allTags.append(contentsOf: tags)
+            } else {
+                // Try to get test summary from metadata if available
+                if let testMetadata = test as? ActionTestMetadata,
+                   let summariesRef = testMetadata.summaryRef,
+                   let testSummary = resultFile.getActionTestSummary(id: summariesRef.id) {
+                    let (testCase, tags) = try processTestCase(testSummary, resultFile: resultFile)
+                    if let testCase = testCase {
+                        testCases.append(testCase)
+                    }
+                    allTags.append(contentsOf: tags)
+                }
             }
         }
+        
+        // Determine test type based on target name or group name
+        let testType = determineTestType(from: testGroup.name, targetName: targetName)
         
         // Create test suite
         let testSuite = TestSuite(
             name: testGroup.name ?? "Unknown Test Group",
             tests: testCases,
             duration: testCases.reduce(0) { $0 + $1.duration },
-            testType: .unit
+            testType: testType
         )
         
         return (testSuite, allTags)
@@ -131,6 +153,22 @@ class TestDataExtractor {
             return .failed
         default:
             return .skipped
+        }
+    }
+    
+    private func determineTestType(from groupName: String?, targetName: String?) -> TestType {
+        let nameToCheck = (groupName ?? targetName ?? "").lowercased()
+        
+        if nameToCheck.contains("ui") || nameToCheck.contains("uitest") {
+            return .ui
+        } else if nameToCheck.contains("unit") || nameToCheck.contains("unittest") {
+            return .unit
+        } else if nameToCheck.contains("integration") {
+            return .integration
+        } else if nameToCheck.contains("performance") {
+            return .performance
+        } else {
+            return .unit // Default to unit tests
         }
     }
     
